@@ -1,5 +1,5 @@
 import { useApp, Wrapper } from "@graphcms/app-sdk-react";
-import { Box, Button, Text, Heading, Stack } from "@hygraph/baukasten";
+import { Box, Button, Text, Heading, Stack, BaukastenProvider } from "@hygraph/baukasten";
 
 function SetupElement() {
     const { installation } = useApp();
